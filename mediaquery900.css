@@ -1,12 +1,12 @@
 /* Inizio contain lezioni */
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 900px) {
     #lezioni .row>.left,
     #lezioni .row>.right {
         width: 100%;
-        float: none;
+        float: right;
         margin: 0;
         padding-top: 10px;
-        font-size: 12px;
+        font-size: 14px;
     }
     h3 {
         margin: 0;
@@ -19,7 +19,7 @@
     }
     #lezioni .row,
     #why .row {
-        background-color: rgb(251, 246, 201);
+        background-color: rgb(3, 97, 121);
         margin: 0;
         padding: 0;
         width: 100%;
@@ -28,7 +28,7 @@
 /* Fine contain lezioni */
 
 /* Inizio contain steps */
-@media screen and (min-width:900px) {
+@media screen and (max-width:900px) {
     #steps .row {
         background-color: white;
         height: 50%;
@@ -56,7 +56,7 @@
 /* Fine contain steps */
 
 /* Inizio contain why */
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 900px) {
     #why .row>.first,
     #why .row>.second,
     #why .row>.third {
@@ -64,8 +64,8 @@
         font-size: 12px;
     }
     #why .row img {
-        width: 60px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
     }
     hr {
         width: 95%;
@@ -74,10 +74,10 @@
     }
 }
 /* Fine contain why */
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 900px) {
     img {
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
         object-fit: contain;
     }
 }
