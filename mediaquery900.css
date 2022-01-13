@@ -1,0 +1,83 @@
+/* Inizio contain lezioni */
+@media screen and (min-width: 900px) {
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+        width: 100%;
+        float: none;
+        margin: 0;
+        padding-top: 10px;
+        font-size: 12px;
+    }
+    h3 {
+        margin: 0;
+        font-size: 16px;
+    }
+    h1 {
+        padding-top: 10px;
+        font-size: 26px;
+        margin: 0;
+    }
+    #lezioni .row,
+    #why .row {
+        background-color: rgb(251, 246, 201);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+}
+/* Fine contain lezioni */
+
+/* Inizio contain steps */
+@media screen and (min-width:900px) {
+    #steps .row {
+        background-color: white;
+        height: 50%;
+        width: 100%;
+        margin: 0;
+        font-size: 12px;
+    }
+    #steps .row img {
+        padding-top: 10px;
+    }
+    img {
+        width: 50%;
+        object-fit: contain;
+    }
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        float: none;
+        width: 100%;
+    }
+    .right {
+        padding-bottom: 10px;
+    }
+}
+/* Fine contain steps */
+
+/* Inizio contain why */
+@media screen and (min-width: 900px) {
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+        margin-top: 0px;
+        font-size: 12px;
+    }
+    #why .row img {
+        width: 60px;
+        height: 60px;
+    }
+    hr {
+        width: 95%;
+        border-top: 2px solid rgba(1, 1, 1, 0.5);
+        margin: 0 auto;
+    }
+}
+/* Fine contain why */
+@media screen and (min-width: 900px) {
+    img {
+        height: 100px;
+        width: 100px;
+        object-fit: contain;
+    }
+}
